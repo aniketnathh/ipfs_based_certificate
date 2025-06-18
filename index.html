@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web3 Certificate Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+   </head>
+<body>
+  <h1>Web3 Certificate Generator</h1>
+  <div class="container">
+    <form id="certForm">
+      <div>
+        <label for="name">Student Name</label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label for="course">Course/Event</label>
+        <input type="text" id="course" required />
+      </div>
+      <div>
+        <label for="duration">Duration</label>
+        <input type="text" id="duration" required />
+      </div>
+      <div>
+        <label for="date">Date of Issue</label>
+        <input type="date" id="date" required />
+      </div>
+      <button type="submit" class="btn">Generate Certificate</button>
+    </form>
+    
+
+    <div class="certificate-preview" id="preview" style="display: none;">
+      <div id="certificate" class="certificate-design">
+        <h2>🎓 Certificate of Completion 🎓</h2>
+        <p>This certifies that</p>
+        <h3 id="certName">[Name]</h3>
+        <p>has successfully completed the</p>
+        <h3 id="certCourse">[Course]</h3>
+        <p>Duration: <span id="certDuration"></span></p>
+        <p>Date of Issue: <span id="certDate"></span></p>
+        <div class="signature">_________________________<br>Authorized Signature</div>
+      </div>
+      <button class="btn" id="downloadBtn">Download Certificate</button>
+    </div>
+  </div>
+  </body>
+</html>

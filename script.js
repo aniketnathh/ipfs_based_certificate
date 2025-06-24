@@ -25,8 +25,7 @@
     });
     
 
-    const jwt = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJkN2MzYzQyNC04YmM5LTRkMWUtODU4MS1iNjZhMGViMTExYTEiLCJlbWFpbCI6Im5hdGhhbmlrZXQ2NzlAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBpbl9wb2xpY3kiOnsicmVnaW9ucyI6W3siZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiRlJBMSJ9LHsiZGVzaXJlZFJlcGxpY2F0aW9uQ291bnQiOjEsImlkIjoiTllDMSJ9XSwidmVyc2lvbiI6MX0sIm1mYV9lbmFibGVkIjpmYWxzZSwic3RhdHVzIjoiQUNUSVZFIn0sImF1dGhlbnRpY2F0aW9uVHlwZSI6InNjb3BlZEtleSIsInNjb3BlZEtleUtleSI6ImNmOTRmOWI3YTBjNGFiY2RkYTM1Iiwic2NvcGVkS2V5U2VjcmV0IjoiOGEyMGU1MjBkMWQxZmNmYzIwNjJhMzQ4MmQ2OTE4MGQ2MzU1YWVmNjNmNDdkYTA3NWJiYzRhNzlmN2RlNmY4MiIsImV4cCI6MTc4MTgxMDg1OX0.jPYYlL2A_VZ63fdtYTgitCgwx28cI6KU4KYA_6VBe7g";
-
+    /*-------------JWT-HERE------------------------*/
     downloadBtn.addEventListener("click", async () => {
       const certificateElement = document.getElementById("certificate");
 
